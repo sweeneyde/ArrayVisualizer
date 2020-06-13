@@ -17,9 +17,9 @@ final public class STBSort extends Sort {
     public STBSort(Delays delayOps, Highlights markOps, Reads readOps, Writes writeOps) {
         super(delayOps, markOps, readOps, writeOps);
         
-        this.setSortPromptID("STB");
-        this.setRunAllID("STB Sort");
-        this.setReportSortID("STB Sort");
+        this.setSortPromptID("Stupid Bitonic");
+        this.setRunAllID("Stupid Bitonic Sort");
+        this.setReportSortID("Stupid Bitonic Sort");
         this.setCategory("Concurrent Sorts");
         this.isComparisonBased(true);
         this.isBucketSort(false);
